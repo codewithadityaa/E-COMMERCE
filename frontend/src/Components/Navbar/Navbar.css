@@ -147,9 +147,10 @@
     }
     .nav-dropdown{
         display: block;
-        width: 30px;
+        width: 18px;
         rotate: -90deg;
         transition: 0.5s;
+        cursor: pointer;
     }
     .nav-menu{
         display: none;
@@ -165,6 +166,7 @@
     }
     .nav-dropdown.open{
         transform: rotate(90deg);
+        cursor: pointer;
     }
 }
 
